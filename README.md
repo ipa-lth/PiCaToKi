@@ -6,6 +6,10 @@ The set of functions will cover stability analysis, observer design, controller 
 Python 2.7X  
 PICOS   
 install solvers mosek, sdpda, cvxopt, ...  
+# Authors
+F. R. López-Estrada  
+G. Valencia-palomo  
+S. Gómez-Peñate  
 
 # List of functions  
   
@@ -37,7 +41,9 @@ P 	: (4, 4), symmetric
 such that  
   P*A.T -Q.T*B.T + A*P -B*Q ≼ |0|  
   P ≽ |0|  
+  
 ---------------------  
+
 optimal matrix P:  
 [[ 2.29907528 -0.11994877  0.09865076  0.50102559]  
  [-0.11994877  0.04704208 -0.02642021 -0.11385623]  
