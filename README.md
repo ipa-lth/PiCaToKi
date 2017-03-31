@@ -31,16 +31,16 @@ lin_lyap(A)
 #wiil display and found a matrix P=P.T>0, 
   
 ---------------------  
-optimization problem  (SDP):  
-14 variables, 0 affine constraints, 20 vars in 2 SD cones  
+	optimization problem  (SDP):  
+	14 variables, 0 affine constraints, 20 vars in 2 SD cones  
   
-Q 	: (1, 4), continuous  
-P 	: (4, 4), symmetric  
+	Q 	: (1, 4), continuous  
+	P 	: (4, 4), symmetric  
   
 	maximize trace( P )  
-such that  
-  P*A.T -Q.T*B.T + A*P -B*Q ≼ |0|  
-  P ≽ |0|  
+	such that  
+  	P*A.T -Q.T*B.T + A*P -B*Q ≼ |0|  
+  	P ≽ |0|  
   
 ---------------------  
 
