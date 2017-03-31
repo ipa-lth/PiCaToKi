@@ -2,6 +2,10 @@
 Python-Calculation Tool Kit for control system and automation  
 this repository will include a set of functions for control system analysis using Linear Matrix Inqualities (LMIs)  
 The set of functions will cover stability analysis, observer design, controller desing, simulation examples, amog other
+# Requirements
+Python 2.7X  
+PICOS   
+install solvers mosek, sdpda, cvxopt, ...  
 
 # List of functions  
   
@@ -20,7 +24,7 @@ lin_fbcon(A,B,"mosek")
 
 #stability test 
 lin_lyap(A)
-# wiil display and found a matrix P=P.T>0, 
+#wiil display and found a matrix P=P.T>0, 
   
 ---------------------  
 optimization problem  (SDP):  
@@ -42,6 +46,10 @@ optimal matrix P:
    
  #Luenberger observer gain with mosek solver  
  lin_obsv(A, C, "mosek")  
- # Linear feedback controller with sdpa solver    
+ #Linear feedback controller with sdpa solver    
  lin_fbcon(A,B,"sdpa")  
  
+ 
+ 
+ 
+ #[1] Z. Gajic and M. Lelic, Modern Control Systems Engineering, London, U.K.: Prentice Hall, 1996.
